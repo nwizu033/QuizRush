@@ -1,0 +1,14 @@
+{
+  "name": "quizrush",
+  "private": true,
+  "workspaces":["server"],
+  "scripts": {
+    "dev:server":"npm run dev -w server",
+    "test:serer":"npm run test -w server",
+    "db:up":"docker compose up -d",
+    "db:down":"docker compose down"
+  },
+  "keywords": [],
+  "author": "Chinwizu",
+  "license": "ISC"
+}
